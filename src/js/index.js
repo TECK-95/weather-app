@@ -1,9 +1,10 @@
 import "../styles/styles.css";
-import odinImage from "../images/odin.png";
+import {header} from "./header";
+//import odinImage from "../images/odin.png";//
 
-const image = document.createElement("img");
+/*const image = document.createElement("img");
 image.src = odinImage;
    
-document.body.appendChild(image);
+document.body.appendChild(image);*/
 
-console.log("Weather TEck");
+document.body.appendChild(header);

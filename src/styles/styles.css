@@ -1,3 +1,20 @@
 body {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    background-color: #203DE0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #E0AD0B;
+    font-size: 48px;
+}
+
+h3 {
+    color: #8B7A42;
+    font-size: 36px;
 }
